@@ -1,6 +1,8 @@
 import streamlit as st
 import time
+import streamlit_player
 from streamlit_player import st_player, _SUPPORTED_EVENTS
+from streamlit_gallery.utils import readme
 
 st.markdown('''
 ## WELCOME TO MY PROGRAM* ?
