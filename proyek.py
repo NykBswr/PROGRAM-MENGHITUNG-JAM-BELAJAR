@@ -14,15 +14,10 @@ tugas = form.text_input('Nama Tugas')
 waktu_fokus = form.number_input('Waktu Fokus (menit)', min_value=1, max_value=120)
 waktu_istirahat = form.number_input('Waktu Istirahat (menit)', min_value=1, max_value=60)
 # Embed a youtube video
-pilihan_musik = st.text_area('Masukan Link', '''
-     It was the best of times, it was the worst of times, it was
-     the age of wisdom, it was the age of foolishness, it was
-     the epoch of belief, it was the epoch of incredulity, it
-     was the season of Light, it was the season of Darkness, it
-     was the spring of hope, it was the winter of despair, (...)
-     ''')
-x = st.write('Sentiment:', st_player(run_sentiment_analysis(pilihan_musik))
-musik = x ('Musik', options=pilihan_musik)
+st_player("https://youtu.be/CmSKVW1v0xM")
+
+# Embed a music from SoundCloud
+st_player("https://soundcloud.com/imaginedragons/demons")
 
 mulai = form.form_submit_button('Mulai !')
 
