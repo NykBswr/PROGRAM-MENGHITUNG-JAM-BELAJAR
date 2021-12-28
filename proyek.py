@@ -1,6 +1,4 @@
 import streamlit as st
-from streamlit_player import st_player
-from typing import Callable
 from streamlit_gallery import apps, components
 import time
 from streamlit_player import st_player, _SUPPORTED_EVENTS
