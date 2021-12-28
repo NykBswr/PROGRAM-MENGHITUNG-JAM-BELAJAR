@@ -1,5 +1,6 @@
 import streamlit as st
 import time
+import streamlit_player 
 from streamlit_player import st_player
 
 st.title('⏳ Pomodoro App ⏳')
